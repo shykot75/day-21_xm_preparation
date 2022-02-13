@@ -1,0 +1,42 @@
+.h-200 {height: 200px;}
+.h-165 {height: 165px;}
+.h-50 {height: 50px!important;}
+.h-600 {height: 600px;}
+.h-250 {height: 300px;}
+
+.nav-color {
+    color: #363636;
+}
+
+.header-color {
+    color: #0054a5;
+}
+.bg-nav {
+    background: #F6F6F6;
+}
+.bg-head {
+    background: #EFEFEF;
+}
+
+@media screen and (max-width: 700px) {
+    .menu-position {
+        position: relative;
+        bottom: 50px;
+        left: 430px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-position {
+        position: relative;
+        bottom: 50px;
+        left: 390px;
+    }
+   .right-position {
+       float: none!important;
+       margin-left: 35%;
+   }
+   .left-position {
+       margin-left: 13%;
+   }
+}
